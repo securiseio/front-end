@@ -153,7 +153,8 @@ module.exports = {
     '~/assets/vendors/animate-extends.css',
     '~/assets/vendors/hamburger-menu.css',
     '~/assets/vendors/slick-carousel/slick.css',
-    '~/assets/vendors/slick-carousel/slick-theme.css'
+    '~/assets/vendors/slick-carousel/slick-theme.css',
+    '~/assets/fonts/Vazirmatn.css'
   ],
   /*
   ** Plugins to load before mounting the App

@@ -55,6 +55,13 @@
 
 <style scoped lang="scss">
 @import '~/assets/styles';
+* {
+  zoom: 96%;
+  font-family: 'Vazirmatn' !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
 
 @function section-margin($margin) {
   @return $margin * 20;

@@ -2,7 +2,7 @@ export default () => {
   return new Promise(function(resolve) {
     resolve({
       common: {
-        title: 'A simple example',
+        title: '',
         subtitle: "It's a blank-page. Start to build your'e page from here.",
         error_with_status: 'An error occurred on server',
         '404': 'This page could not be found.',
@@ -27,7 +27,7 @@ export default () => {
         zh: '简体中文',
         pt: '󠁥󠁮󠁧󠁿Português',
         id: '󠁥󠁮󠁧󠁿Bahasa Indonesia',
-        ar: '󠁥󠁮󠁧󠁿العربيّة',
+        ar: 'فارسی',
         notif_msg: 'This is an example of a message that is commonly used for important information to visitors or users. Please click the button beside to close this message.'
       },
       agencyLanding: {

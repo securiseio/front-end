@@ -27,7 +27,7 @@ export default () => {
         zh: '简体中文',
         pt: '󠁥󠁮󠁧󠁿Português',
         id: '󠁥󠁮󠁧󠁿Bahasa Indonesia',
-        ar: '󠁥󠁮󠁧󠁿العربيّة',
+        ar:'فارسی',
         notif_msg: 'Dies ist ein Beispiel für eine Nachricht, die häufig für wichtige Informationen für Besucher oder Benutzer verwendet wird. Bitte klicken Sie auf die Schaltfläche neben, um diese Nachricht zu schließen.'
       },
       agencyLanding: {

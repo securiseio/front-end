@@ -26,7 +26,7 @@ export default () => {
         zh: '简体中文',
         pt: '󠁥󠁮󠁧󠁿Português',
         id: '󠁥󠁮󠁧󠁿Bahasa Indonesia',
-        ar: '󠁥󠁮󠁧󠁿العربيّة',
+        ar: 'فارسی',
         notif_msg: '这是一条消息示例，通常用于向访问者或用户提供重要信息。 请单击旁边的按钮以关闭此消息。'
       },
       agencyLanding: {
