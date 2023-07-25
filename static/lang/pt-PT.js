@@ -27,7 +27,8 @@ export default () => {
         pt: '󠁥󠁮󠁧󠁿Português',
         id: '󠁥󠁮󠁧󠁿Bahasa Indonesia',
         ar: 'فارسی',
-        notif_msg: 'Este é um exemplo de mensagem comumente usada para informações importantes para visitantes ou usuários. Clique no botão ao lado para fechar esta mensagem.'
+        notif_msg:
+          'Este é um exemplo de mensagem comumente usada para informações importantes para visitantes ou usuários. Clique no botão ao lado para fechar esta mensagem.'
       },
       agencyLanding: {
         header_about: 'sobre',
