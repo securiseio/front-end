@@ -27,8 +27,9 @@ export default () => {
         zh: '简体中文',
         pt: '󠁥󠁮󠁧󠁿Português',
         id: '󠁥󠁮󠁧󠁿Bahasa Indonesia',
-        ar: '󠁥󠁮󠁧󠁿العربيّة',
-        notif_msg: 'Ini adalah contoh pesan yang biasa digunakan untuk informasi penting kepada pengunjung atau pengguna. Silahkan klik tombol disamping untuk menutup pesan ini.'
+        ar: 'فارسی',
+        notif_msg:
+          'Ini adalah contoh pesan yang biasa digunakan untuk informasi penting kepada pengunjung atau pengguna. Silahkan klik tombol disamping untuk menutup pesan ini.'
       },
       agencyLanding: {
         header_about: 'tentang',

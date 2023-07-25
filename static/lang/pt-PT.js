@@ -26,8 +26,9 @@ export default () => {
         zh: '简体中文',
         pt: '󠁥󠁮󠁧󠁿Português',
         id: '󠁥󠁮󠁧󠁿Bahasa Indonesia',
-        ar: '󠁥󠁮󠁧󠁿العربيّة',
-        notif_msg: 'Este é um exemplo de mensagem comumente usada para informações importantes para visitantes ou usuários. Clique no botão ao lado para fechar esta mensagem.'
+        ar: 'فارسی',
+        notif_msg:
+          'Este é um exemplo de mensagem comumente usada para informações importantes para visitantes ou usuários. Clique no botão ao lado para fechar esta mensagem.'
       },
       agencyLanding: {
         header_about: 'sobre',

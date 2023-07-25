@@ -1,11 +1,11 @@
 const brand = {
   agency: {
-    name: 'Agency',
+    name: 'Securise',
     desc: 'Veluxi Agency - Vue Single Landing Page Template',
     prefix: 'veluxi',
     footerText: 'Veluxi Theme - All Rights Reserved 2021',
-    logoText: 'Veluxi Agency',
-    projectName: 'Agency Theme',
+    logoText: 'Securise ',
+    projectName: 'Securise',
     url: 'veluxi.ux-maestro.com/agency',
     img: '/static/images/agency-logo.png',
     notifMsg:
