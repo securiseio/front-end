@@ -36,7 +36,7 @@ export default () => {
         header_services: 'خدمات',
         'header_our-expertise': 'تخصص ما',
         header_testimonials: 'گواهینامه ها',
-        'header_case-studies': ' مطالعات موردی',
+        'header_case-studies': ' امنیت',
         header_our_office: 'دفتر ما',
         header_contact: 'تماس',
         header_language: 'زبان',

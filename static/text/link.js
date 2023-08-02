@@ -1,7 +1,8 @@
 const link = {
   agency: {
     home: '/',
-    contact: '/contact'
+    contact: '/contact',
+    safety: '/safety'
   }
 }
 
