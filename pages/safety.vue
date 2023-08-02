@@ -1,7 +1,16 @@
 <template>
   <div>
    <decoration />
-  <div style="margin: 80px;">
+   <v-btn
+        style="margin:80px"
+        :href="routeLink.agency.home"
+        icon
+        class="backtohome"
+      >
+        <i class="ion-ios-home-outline" />
+        <i class="ion-ios-arrow-round-back-outline" />
+      </v-btn>
+  <div style="margin: 150px;font-weight: 500;">
     <p>😊 please insert your requirements.txt content so we can tell your vulnerability: <br> here I provide you a sample file you can click submit saftey check to find out more 👇</p>
   <editor
   v-model="content"
@@ -38,13 +47,15 @@ style="display: flex;
 import Editor from '@tinymce/tinymce-vue'
 import axios from 'axios'
 import Decoration from '~/components/Forms/Decoration'
+import link from '~/static/text/link'
 
 
 export default {
   data: () => {
     return {
       content: '<p>insecure-package==0.1.0</p> \n <p>Django==1.0</p>',
-      response: ''
+      response: '',
+      routeLink: link
     }
   },
   name: 'App',
@@ -78,3 +89,8 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+@import '../components/Forms/form-style.scss';
+
+</style>
