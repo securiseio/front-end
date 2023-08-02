@@ -36,7 +36,7 @@ export default () => {
         header_services: 'services',
         'header_our-expertise': 'our expertise',
         header_testimonials: 'testimonials',
-        'header_case-studies': 'case studies',
+        'header_case-studies': 'safety',
         header_our_office: 'our office',
         header_contact: 'contact',
         header_language: 'language',

@@ -1,5 +1,5 @@
 import nodeExternals from 'webpack-node-externals'
-import ESLintPlugin from 'eslint-webpack-plugin'
+// import ESLintPlugin from 'eslint-webpack-plugin'
 import { theme } from './config/vuetify.options'
 import languages from './static/lang/languages'
 import brand from './static/text/brand'
@@ -261,11 +261,11 @@ module.exports = {
     extend(config, ctx) {
       if (ctx.isDev && ctx.isClient) {
         config.plugins.push(
-          new ESLintPlugin({
-            extensions: ['js', 'vue'],
-            exclude: ['node_modules', 'static'],
-            fix: false
-          })
+          // new ESLintPlugin({
+          //   extensions: ['js', 'vue'],
+          //   exclude: ['node_modules', 'static'],
+          //   fix: false
+          // })
         )
       }
     }
